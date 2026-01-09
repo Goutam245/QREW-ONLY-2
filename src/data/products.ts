@@ -1,0 +1,88 @@
+import { Product } from '@/components/ProductCard';
+
+export const products: Product[] = [
+  {
+    id: 'PRD_001',
+    name: 'Terminal Hoodie V2',
+    price: 89.99,
+    status: 'AVAILABLE',
+    image: 'https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&h=600&fit=crop',
+    category: 'APPAREL',
+    quantity: 247,
+  },
+  {
+    id: 'PRD_002',
+    name: 'Matrix Tee - Black',
+    price: 45.99,
+    status: 'LIMITED',
+    image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&h=600&fit=crop',
+    category: 'APPAREL',
+    quantity: 23,
+  },
+  {
+    id: 'PRD_003',
+    name: 'Cyber Cap - Neon',
+    price: 34.99,
+    status: 'AVAILABLE',
+    image: 'https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=600&h=600&fit=crop',
+    category: 'ACCESSORIES',
+    quantity: 156,
+  },
+  {
+    id: 'PRD_004',
+    name: 'Debug Shorts',
+    price: 59.99,
+    status: 'SOLD_OUT',
+    image: 'https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&h=600&fit=crop',
+    category: 'APPAREL',
+    quantity: 0,
+  },
+  {
+    id: 'PRD_005',
+    name: 'System Socks Pack',
+    price: 24.99,
+    status: 'AVAILABLE',
+    image: 'https://images.unsplash.com/photo-1586350977771-b3b0abd50c82?w=600&h=600&fit=crop',
+    category: 'ACCESSORIES',
+    quantity: 412,
+  },
+  {
+    id: 'PRD_006',
+    name: 'Kernel Jacket',
+    price: 149.99,
+    status: 'LIMITED',
+    image: 'https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&h=600&fit=crop',
+    category: 'APPAREL',
+    quantity: 15,
+  },
+];
+
+export const exclusiveProducts: Product[] = [
+  {
+    id: 'QREW_001',
+    name: 'Elite Terminal Hoodie',
+    price: 79.99,
+    status: 'PRE_ORDER',
+    image: 'https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&h=600&fit=crop',
+    category: 'QREW_EXCLUSIVE',
+    quantity: 50,
+  },
+  {
+    id: 'QREW_002',
+    name: 'Founder Edition Tee',
+    price: 39.99,
+    status: 'LIMITED',
+    image: 'https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&h=600&fit=crop',
+    category: 'QREW_EXCLUSIVE',
+    quantity: 12,
+  },
+  {
+    id: 'QREW_003',
+    name: 'Platinum Access Jacket',
+    price: 129.99,
+    status: 'PRE_ORDER',
+    image: 'https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=600&h=600&fit=crop',
+    category: 'QREW_EXCLUSIVE',
+    quantity: 25,
+  },
+];
